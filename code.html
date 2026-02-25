@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ciudad Bosque | Naturaleza y Tranquilidad</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#11d442",
+                        "forest-dark": "#0a1f0e",
+                        "forest-deep": "#051108",
+                        "nature-bg": "#f9fcf9",
+                    },
+                    fontFamily: {
+                        "sans": ["Public Sans", "sans-serif"],
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        @layer base {
+            body {
+                @apply font-sans antialiased text-slate-800 bg-nature-bg;
+            }
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body>
+<header class="fixed top-0 z-50 w-full bg-white/90 backdrop-blur-lg border-b border-slate-100">
+<div class="mx-auto flex max-w-7xl items-center justify-between px-8 py-5">
+<a class="flex items-center gap-2 group" href="#">
+<span class="material-symbols-outlined text-primary text-3xl transition-transform group-hover:scale-110">forest</span>
+<span class="text-2xl font-black tracking-tight text-forest-dark uppercase">Ciudad<span class="text-primary">Bosque</span></span>
+</a>
+<nav class="hidden md:flex items-center gap-10">
+<a class="text-sm font-bold text-slate-600 hover:text-primary transition-colors" href="#">Inicio</a>
+<a class="text-sm font-bold text-slate-600 hover:text-primary transition-colors" href="#beneficios">Beneficios</a>
+<a class="text-sm font-bold text-slate-600 hover:text-primary transition-colors" href="#galeria">Galería</a>
+<a class="text-sm font-bold text-slate-600 hover:text-primary transition-colors" href="#ubicacion">Ubicación</a>
+</nav>
+<div class="flex items-center gap-6">
+<button class="bg-primary hover:bg-[#0fb839] text-forest-deep px-6 py-3 rounded-full font-bold text-sm transition-all shadow-lg shadow-primary/20 hover:-translate-y-0.5 active:translate-y-0">
+                Coordina una visita
+            </button>
+</div>
+</div>
+</header>
+<main class="pt-20">
+<section class="relative h-[90vh] min-h-[700px] w-full flex items-center overflow-hidden">
+<div class="absolute inset-0">
+<img alt="Paisaje natural Ciudad Bosque" class="h-full w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9J-TGaCDmYBub5xPKvBG3UuNMF-QaqSiiqEdWOk1YsJ_Nynz9K1Lk-GQxmuvpXd4HtPLnyEDc90_4Hha6CTqpjOPcxPnmwlM_71HMiECLNBToOSUF7fwFRz4RtT9HA2q1SrlJW5qnR2sqnu_BwXVgXePqfLaAHNAQU9rka04cY5Nmg_X7_jE7cxoVtwgT_bIN-zn9lsXliRivlu_fH5RRiVdvc7uwbfKn78N3uTFOA4np4xkPRP3EqhYF4RVktNhssSPqwTkJsUd-"/>
+<div class="absolute inset-0 bg-gradient-to-r from-forest-deep/90 via-forest-deep/40 to-transparent"></div>
+</div>
+<div class="relative mx-auto w-full max-w-7xl px-8">
+<div class="max-w-2xl">
+<span class="inline-block bg-primary/20 backdrop-blur-sm text-primary px-4 py-1.5 rounded-full text-xs font-black uppercase tracking-widest mb-6 border border-primary/30">
+                    Tu refugio natural
+                </span>
+<h1 class="text-6xl md:text-7xl font-black leading-tight text-white mb-6">
+                    Naturaleza y <br/><span class="text-primary">tranquilidad</span>
+</h1>
+<p class="text-xl text-slate-200 mb-10 leading-relaxed font-light">
+                    Exclusivos lotes amplios desde <span class="font-bold text-white text-2xl">1.000 m²</span>. <br/>
+                    Precios competitivos desde <span class="text-primary font-bold text-2xl">$15</span> el m².
+                </p>
+<div class="flex flex-col sm:flex-row gap-5">
+<button class="bg-primary hover:bg-[#0fb839] text-forest-deep px-10 py-5 rounded-2xl font-black text-lg transition-all shadow-2xl shadow-primary/40 flex items-center justify-center gap-3">
+<span class="material-symbols-outlined">calendar_today</span>
+                        Coordina una visita
+                    </button>
+<button class="bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white px-10 py-5 rounded-2xl font-bold text-lg transition-all">
+                        Ver Ubicación
+                    </button>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-white" id="beneficios">
+<div class="mx-auto max-w-7xl px-8">
+<div class="grid lg:grid-cols-2 gap-20 items-center">
+<div class="relative">
+<div class="aspect-square rounded-3xl overflow-hidden shadow-2xl">
+<img alt="Inversión segura" class="h-full w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFc2DTxq0o-H6We-ijbNQIqfp9ZAHOUpVvNUk8WZ1CJg_mehQj8CqohecxOLQHD7LdtoJUPumvi30LxchAxc3NhB7eZAd4EJzXn7s58eQzwK0BBQLrglvp8K7Hdqwaw0c_2Hp7DyDiluNcq3cgDKWF4e7MOY1dMyImESp91cyYTqQloMDh60BdjJv0rcRSX6YvYVxr13X9mgXKPjX8Ym-f9dxgKR7vW4usoxfIvDK4YLwZJmCl3PfODi3dtNew3-3FyOVR6up4CEBl"/>
+</div>
+<div class="absolute -bottom-10 -right-10 bg-forest-dark p-10 rounded-3xl shadow-2xl border border-white/10 hidden md:block">
+<p class="text-primary text-4xl font-black mb-2">30%</p>
+<p class="text-white text-sm font-bold uppercase tracking-widest opacity-70">Entrada mínima</p>
+</div>
+</div>
+<div class="space-y-10">
+<div>
+<h2 class="text-4xl md:text-5xl font-black text-forest-dark mb-6 leading-tight">Facilidades que hacen realidad tu sueño</h2>
+<p class="text-lg text-slate-500 leading-relaxed">Invierte en un patrimonio sólido con las mejores condiciones del mercado. Ciudad Bosque está diseñado para quienes buscan escapar del ruido sin complicaciones.</p>
+</div>
+<div class="grid gap-8">
+<div class="flex items-start gap-6 p-6 rounded-2xl bg-nature-bg border border-slate-100 hover:border-primary/30 transition-all">
+<div class="h-14 w-14 shrink-0 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl">credit_score</span>
+</div>
+<div>
+<h4 class="text-xl font-bold text-forest-dark mb-2">Crédito Directo</h4>
+<p class="text-slate-500">Financiamiento sin intermediarios bancarios hasta <span class="text-forest-dark font-bold">24 meses</span> plazo.</p>
+</div>
+</div>
+<div class="flex items-start gap-6 p-6 rounded-2xl bg-nature-bg border border-slate-100 hover:border-primary/30 transition-all">
+<div class="h-14 w-14 shrink-0 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl">verified_user</span>
+</div>
+<div>
+<h4 class="text-xl font-bold text-forest-dark mb-2">Infraestructura Básica</h4>
+<p class="text-slate-500">Acceso vial lastrado, suministro de agua, portón de ingreso y acceso exclusivo al río Caoní.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="pb-32 bg-white">
+<div class="mx-auto max-w-7xl px-8">
+<div class="bg-forest-dark rounded-[3rem] p-12 md:p-20 grid grid-cols-2 md:grid-cols-4 gap-12">
+<div class="text-center group">
+<span class="material-symbols-outlined text-primary text-5xl mb-4 transition-transform group-hover:-translate-y-2">edit_road</span>
+<p class="text-white font-bold">Acceso vial</p>
+</div>
+<div class="text-center group">
+<span class="material-symbols-outlined text-primary text-5xl mb-4 transition-transform group-hover:-translate-y-2">water_drop</span>
+<p class="text-white font-bold">Agua</p>
+</div>
+<div class="text-center group">
+<span class="material-symbols-outlined text-primary text-5xl mb-4 transition-transform group-hover:-translate-y-2">gate</span>
+<p class="text-white font-bold">Portón de ingreso</p>
+</div>
+<div class="text-center group">
+<span class="material-symbols-outlined text-primary text-5xl mb-4 transition-transform group-hover:-translate-y-2">waves</span>
+<p class="text-white font-bold">Acceso al río</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-nature-bg" id="galeria">
+<div class="mx-auto max-w-7xl px-8">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<h2 class="text-4xl md:text-5xl font-black text-forest-dark mb-4">Un entorno privilegiado</h2>
+<p class="text-slate-500">Cada lote en Ciudad Bosque está rodeado de vegetación exuberante y aire puro.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="group relative overflow-hidden rounded-[2rem] h-[400px] shadow-xl">
+<img alt="Entorno natural" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzEJdh3ohXY9lDokVepDDgbolSkC7CeP4t-7IUiOE79CxhS7yUFq4f8OfbZaateDGxoxl2DrSK2h07VzHoq022uZLDmMAhB-PtKnsuIwsol_Oj40UMzALmvirfQg_pr1UPwRW0OFh-C5Rea77C6P4wLRyPq68LlvoNPDpFmhflydy7pGR9VwwavG4fd_BWX3f3NfYp10a7dE0XgTKeTF1emhmUpzMgXP80g9NE4Fs9vmsD-YhnzvVz4g9p5JKV1cc-SD4UyYsyf3hP"/>
+<div class="absolute inset-0 bg-gradient-to-t from-forest-deep/60 to-transparent"></div>
+<div class="absolute bottom-8 left-8">
+<p class="text-white text-xl font-bold">Bosque Virgen</p>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-[2rem] h-[400px] shadow-xl">
+<img alt="Caminos y accesos" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwkaGrZvxRT7u5W4XKx7TQPIacamyG4ViZFsyW2KRLfLhMzvcZFDu2_BLRd7vieKNi7JrleZMZaoJUkCPxHgS7gLBF2b8G_EnVJ4AQQjm2uCh0cON-XKvUWe0VTekPqa9NuD5Z1RvoXTaP1KCbcG4vnG6barYwNXR_--wVzpot6yfMijOrSVEdV9fYusvFMBY18uocoJhtGmyu_l1B_I0UzMICk00yIGD2RsOd6jZoXdfcmmtkacSbaHRojm4oNa4I9A2pb-CPDSp2"/>
+<div class="absolute inset-0 bg-gradient-to-t from-forest-deep/60 to-transparent"></div>
+<div class="absolute bottom-8 left-8">
+<p class="text-white text-xl font-bold">Vías de Acceso</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-white" id="ubicacion">
+<div class="mx-auto max-w-7xl px-8">
+<div class="rounded-[3rem] overflow-hidden border border-slate-100 shadow-2xl flex flex-col lg:flex-row">
+<div class="lg:w-1/2 p-12 md:p-20 bg-forest-dark text-white flex flex-col justify-center">
+<h2 class="text-4xl md:text-5xl font-black mb-8 leading-tight">Reserva tu lote con <span class="text-primary">$200</span></h2>
+<p class="text-slate-300 text-lg mb-12 leading-relaxed">Únete a la comunidad de Ciudad Bosque. Ubicación estratégica cerca del río Caoní, ideal para tu casa de descanso o inversión.</p>
+<div class="space-y-6 mb-12">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<span class="text-lg">Puerto Quito, Ecuador - Sector Río Caoní</span>
+</div>
+</div>
+<button class="bg-primary hover:bg-[#0fb839] text-forest-deep px-10 py-5 rounded-2xl font-black text-lg transition-all shadow-xl shadow-primary/20 text-center">
+                        Solicitar más información
+                    </button>
+</div>
+<div class="lg:w-1/2 min-h-[500px] relative grayscale hover:grayscale-0 transition-all duration-700">
+<img alt="Mapa de ubicación" class="absolute inset-0 h-full w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdUEsmijapYkkEOd6BLfZzBvU-X0mkAQP7e1Mp01tbPqmN1Ve0nee2OYcGy7-mTHsqkc4yZw47Vdlc48QPkvkpU_5L6n9wDZdvsEpkjUfW1o5k-f-e2KkTWsghMIvxAWnGo-WuoTxziuxIwedRHJAvs58Nmq-zaGVvMrca7bbOKhQXj98lTFOQbY1RuhqDL0UGpqcGU6QSHDlMsixr_H1ZCAfl-jbNp6IUSAEu1wn4k6TehNpuAdFQto7qprdCXHRKp13fpTGQ94Sg"/>
+<div class="absolute inset-0 bg-primary/5 pointer-events-none"></div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-forest-deep py-20 border-t border-white/5">
+<div class="mx-auto max-w-7xl px-8">
+<div class="grid md:grid-cols-3 gap-16 items-start">
+<div class="space-y-6">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl">forest</span>
+<span class="text-2xl font-black tracking-tight text-white uppercase">Ciudad<span class="text-primary">Bosque</span></span>
+</div>
+<p class="text-slate-400 font-light leading-relaxed">Proyecto de lotización premium enfocado en la armonía con la naturaleza y el crecimiento patrimonial familiar.</p>
+</div>
+<div class="space-y-6">
+<h4 class="text-white font-bold text-lg">Financiamiento</h4>
+<ul class="space-y-4 text-slate-400">
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-sm">check_circle</span>
+<span>Reserva desde $200</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-sm">check_circle</span>
+<span>Crédito directo 24 meses</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-sm">check_circle</span>
+<span>30% de entrada inicial</span>
+</li>
+</ul>
+</div>
+<div class="space-y-6">
+<h4 class="text-white font-bold text-lg">Contacto Directo</h4>
+<div class="flex flex-col gap-4">
+<a class="text-slate-400 hover:text-primary transition-colors flex items-center gap-3" href="tel:#">
+<span class="material-symbols-outlined">call</span>
+                        +593 00 000 0000
+                    </a>
+<a class="text-slate-400 hover:text-primary transition-colors flex items-center gap-3" href="mailto:info@ciudadbosque.com">
+<span class="material-symbols-outlined">mail</span>
+                        info@ciudadbosque.com
+                    </a>
+</div>
+</div>
+</div>
+<div class="mt-20 pt-8 border-t border-white/5 flex flex-col md:row items-center justify-between gap-6">
+<p class="text-slate-500 text-sm">© 2024 Ciudad Bosque. Todos los derechos reservados.</p>
+<div class="flex gap-8">
+<a class="text-slate-500 hover:text-white transition-colors text-xs font-bold uppercase tracking-widest" href="#">Aviso Legal</a>
+<a class="text-slate-500 hover:text-white transition-colors text-xs font-bold uppercase tracking-widest" href="#">Privacidad</a>
+</div>
+</div>
+</div>
+</footer>
+
+</body></html>
